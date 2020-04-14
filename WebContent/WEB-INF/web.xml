@@ -10,6 +10,7 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
+  <!-- Comment for @WebFilter Annotation [use annotation instead of to write filter configuration here]
   <filter>
 		<filter-name>Authenticate</filter-name>
 		<filter-class>com.amin.demos.AuthenticationFilter</filter-class>
@@ -17,7 +18,7 @@
   <filter-mapping>  		
 		<filter-name>Authenticate</filter-name>
 		<url-pattern>/SecuredServlet</url-pattern>
-  </filter-mapping>
+  </filter-mapping> -->
   
   <error-page>
   	<error-code>404</error-code>

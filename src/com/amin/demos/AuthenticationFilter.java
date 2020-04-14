@@ -15,7 +15,9 @@ import javax.servlet.annotation.WebFilter;
 /**
  * Servlet Filter implementation class AuthenticationFilter
  */
-@WebFilter("/AuthenticationFilter")
+//@WebFilter("/AuthenticationFilter")
+@WebFilter(filterName="Authenticate", urlPatterns="/SecuredServlet")
+
 public class AuthenticationFilter implements Filter {
 
     /**
